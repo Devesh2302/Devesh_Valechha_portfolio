@@ -27,7 +27,7 @@
 
 <main>
 <div class="Intro" id="Home" >
-<div>
+<div class="intro_L">
 <br>
 <br>
 <br>
@@ -37,8 +37,7 @@
 <h1 class="intro1">Hi there,</h1> 
 <H1 class="intro2"> <b>I am Devesh Valechha</b></h1>
 <h3 class="intro3"> Data Analyst.</h3>
-<H3 class="intro4"> with a strong passion for transforming raw data into meaningful insights.</H3>
-<H3 class="intro4">I enjoy working with data visualization and analytical tools to solve real-world problems.</H3>
+<H3 class="intro4"> with a strong passion for transforming raw data into meaningful insights.I enjoy working with data visualization and analytical tools to solve real-world problems.</H3>
 <br>
 <br>
 <br>
@@ -54,9 +53,9 @@
 <br>
 <br>
 <div class="icon2">
-<a class="ic_img" href="https://www.linkedin.com/in/devesh-valechha-83382625b/" target="_blank"><img src="LI.png" style="height:50px; width:50px;border-radius: 30%; "></a>
-<a class="ic_img" href="https://github.com/Devesh2302" target="_blank"><img src="Gh (1).png" style="height:50px;width: 50px; background-color: antiquewhite; border-radius: 30%; "></a>
-<a class="ic_img"  href="https://mail.google.com/mail/?view=cm&fs=1&to=valechhadevesh@gmail.com" target="_blank"> <img src="gm.png" style="height:58px;width: 45px; border-radius: 40%; margin-top: -5px;"></a>
+<a class="ic_img" href="https://www.linkedin.com/in/devesh-valechha-83382625b/" target="_blank"><img src="LI.png" ></a>
+<a class="ic_img" href="https://github.com/Devesh2302" target="_blank"><img src="Gh (1).png" style="background-color: antiquewhite; "></a>
+<a class="ic_img"  href="https://mail.google.com/mail/?view=cm&fs=1&to=valechhadevesh@gmail.com" target="_blank"> <img src="gm.png"></a>
 </div>
 </div>
 <div>
@@ -74,6 +73,7 @@
 <div class="abt_p">
 
  <h3 class="abt_c" >I am a Data Analyst and Python Developer with a strong background in programming, data analysis, and front-end development. Have completed my Bachelor’s in Computer Applications, I bring expertise in Python, SQL, Power BI, and Excel, along with hands-on experience in data visualization, reporting, and problem-solving. I have also worked with front-end technologies such as HTML, CSS, and WordPress, which enhance my ability to build complete data-driven solutions. Passionate about transforming raw data into meaningful insights, I thrive on solving real-world challenges and continuously improving my technical skills. I am eager to contribute to innovative projects, collaborate with dynamic teams, and grow further in the fields of data science and software development.</h3>
+ </div>
 <br>
 <br>
 <br>
@@ -119,7 +119,7 @@
 <div class="box_in2">
 <div class="bx_fr2">
     <div class="bx2_fr">
- <h1 style="font-size:90px;"><b>SKILLS</b></h1>
+ <h1 ><b class="skl_L">SKILLS</b></h1>
  <img src="skllll.jpg" class="skl_img">
  </div>
 </div>
@@ -164,6 +164,7 @@
 <div class="skl_new">
     <img src="mtpltb.png" class="abt_logo">
     <h3 class="abt_cnt">Matplotlib</h3>
+</div>
 </div>
 </div>
 </div>
@@ -323,7 +324,7 @@
 document.getElementById("contact-form").addEventListener("submit", function(event) {
     event.preventDefault();
 
-    emailjs.sendForm("service_tyhh4k5", "YOUR_TEMPLATE_ID", this)
+    emailjs.sendForm("service_tyhh4k5", "tempId", this)
     .then(() => {
         alert("✅ Message sent successfully!");
         document.getElementById("contact-form").reset();
