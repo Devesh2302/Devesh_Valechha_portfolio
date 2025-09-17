@@ -605,7 +605,7 @@ html, body {
 }
 
 .nav-container {
-        width: auto;
+        width: 100%;
         gap: 10px;
         display: flex;
         height: auto;
@@ -824,7 +824,7 @@ width: 100%;
 
 footer{
      width:100%;
-     height: auto;
+     height: 300px;
     align-items: center;
     display: flex;    
     justify-content: center;
@@ -832,3 +832,4 @@ footer{
 }    
 
 }
+
