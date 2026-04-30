@@ -1,0 +1,69 @@
+@media (max-width: 768px) {
+
+
+  header {
+    flex-direction: row;
+    justify-content: space-between;
+    height: auto;
+    padding: 10px;
+  }
+  .logo{
+    font-size: 18px;
+  }
+
+.nav-container {
+flex-direction: row;
+justify-content: space-between;
+gap: 10px;
+width: 100%;
+padding: 10px;
+padding-right: 25px;
+margin-left: -40px;
+}
+
+.TR {
+ flex-direction: row;
+font-size: 8px;
+flex-wrap: nowrap;
+gap: 12px;
+margin: 0;
+    }
+.Intro{
+margin-left: 30px;
+}
+.intro1{
+font-size: 25px;
+}    
+.intro2{
+
+}
+.intro3{
+
+}
+.intro4{
+
+}
+.bt_set{
+
+}
+.icon2{
+
+}
+.avt{
+
+}
+
+footer {
+display: flex;
+width: 900px;
+height: auto;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+  }
+
+.icons {
+flex-wrap: wrap;
+gap: 15px;
+  }
+}
